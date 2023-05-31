@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/examen-firebase/static/css/main.b416677c.css",
+    "main.js": "/examen-firebase/static/js/main.6d601a79.js",
+    "static/js/787.ca89862e.chunk.js": "/examen-firebase/static/js/787.ca89862e.chunk.js",
+    "index.html": "/examen-firebase/index.html",
+    "main.b416677c.css.map": "/examen-firebase/static/css/main.b416677c.css.map",
+    "main.6d601a79.js.map": "/examen-firebase/static/js/main.6d601a79.js.map",
+    "787.ca89862e.chunk.js.map": "/examen-firebase/static/js/787.ca89862e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b416677c.css",
+    "static/js/main.6d601a79.js"
+  ]
+}
