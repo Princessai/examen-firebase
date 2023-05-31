@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Connexion from './pages/Connexion';
+import Inscription from './pages/Inscription';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import Accueil from './pages/Accueil';
+import NewProducts from './pages/NewProducts'
+import AfficherProduit from './pages/AfficherProduit';
+import EditerProduit from './pages/EditerProduit'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToastContainer position="top-center" />
+          <Routes>
+            <Route path='/' element={<Connexion />} />
+            <Route path='/register' element={<Inscription />} />
+            <Route path="/accueil" element={<Accueil />} />
+            <Route path="/new" element={<NewProducts />} />
+            <Route path='/afficher:id' element={<AfficherProduit />} />
+            <Route path='/editer:id' element={<EditerProduit />} />
+
+          </Routes>
+          
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.connexion {
+    text-align: center;
+    width: 500px;
+}
+
+.Gconnexion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
