@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <ToastContainer position="top-center" />
           <Routes>
-            <Route path='/' element={<Connexion />} />
+            <Route path='/examen-firebase' element={<Connexion />} />
             <Route path='/register' element={<Inscription />} />
             <Route path="/accueil" element={<Accueil />} />
             <Route path="/new" element={<NewProducts />} />
