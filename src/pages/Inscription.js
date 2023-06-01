@@ -53,7 +53,7 @@ const Inscription = () => {
                         </Link>
                     </p>
 
-                    <button type="submit" class="btn btn-primary">Se connecter</button>
+                    <button type="submit" class="btn btn-primary">S'inscrire</button>
                 </form>
             </div>
 
