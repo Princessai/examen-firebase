@@ -12,7 +12,7 @@ function Header2() {
                     <button type="button" class="btn btn-primary">Créer un nouveau produit</button>
                     </Link>
                     
-                    <Link to={'/examen-firebase'} >
+                    <Link to={'/examen-firebase/'} >
                     <button type="button" class="btn btn-primary">Se deconnecter</button>
                     </Link>
                 </div>

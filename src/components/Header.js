@@ -8,7 +8,7 @@ function Header() {
             <nav class="navbar navbar-light bg-light">
                 <span class="navbar-brand mb-0 h1 bg-light">Navbar</span>
                 <div className='buttonAuth bg-light'>
-                    <Link to={'/'} >
+                    <Link to={'/examen-firebase/'} >
                     <button type="button" class="btn btn-primary">Connexion</button>
                     </Link>
                     

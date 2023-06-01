@@ -48,7 +48,7 @@ const Inscription = () => {
                     </div>
 
                     <p>Déjà inscrit ?
-                        <Link to={'/'}>
+                        <Link to={'/examen-firebase/'}>
                             <a> Se connecter</a>
                         </Link>
                     </p>
