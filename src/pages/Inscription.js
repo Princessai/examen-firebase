@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
+import './Connexion.css'
 
 
 
